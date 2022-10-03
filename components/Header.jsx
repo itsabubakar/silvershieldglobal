@@ -14,7 +14,7 @@ const Header = () => {
                     <li><Link href={'/'}><a className="hover:text-orange-accent">About us</a></Link></li>
                     <li><Link href={'/'}><a className="hover:text-orange-accent">How we work</a></Link></li>
                     <li><Link href={'/'}><a className="hover:text-orange-accent">Benefits</a></Link></li>
-                    <li className="ml-auto"><Link href={'/'}><a className="border rounded-lg bg-blue-accent p-4 text-white hover:bg-orange-accent hover:text-white">Contact us</a></Link></li>
+                    <li className="ml-auto"><Link href={'/'}><a className="transition duration-300 ease-in-out rounded border-2 border-dark-header p-2 hover:border-2 hover:bg-white hover:border-gray-300">Contact us</a></Link></li>
                 </ul>
             </nav>
         </header>
