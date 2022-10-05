@@ -1,20 +1,19 @@
 import Head from 'next/head'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+
+// Components
 import Hero from '../components/Hero'
 import Info from '../components/Info'
 import Mid from '../components/Mid'
 import MidBottom from '../components/MidBottom'
+import Format from '../layout/Format'
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <Format>
       <Hero />
       <Mid />
       <MidBottom />
       <Info />
-      <Footer />
-    </div>
+    </Format>
   )
 }
