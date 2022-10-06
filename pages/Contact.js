@@ -4,7 +4,7 @@ import Format from "../layout/Format"
 
 const Contact = () => {
     return (
-        <Format >
+        <Format title={'- Contact'}>
             <HeaderText h2={'Contact Us'} p={'Any inquiries you may have or discussions regarding how we might collaborate are both welcome!'} />
             <ContactInfo />
         </Format>

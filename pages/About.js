@@ -6,7 +6,7 @@ import AboutText from '../components/AboutText'
 
 const About = () => {
   return (
-    <Format title={'About'}>
+    <Format title={'- About'}>
       <AboutHero />
       <AboutText bg={'#fefefe'} text={[
         'Silvershieldglobal makes business grants, development plans, and financial management easier for new and old businesses.',

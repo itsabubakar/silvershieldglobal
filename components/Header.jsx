@@ -16,7 +16,7 @@ const Header = () => {
                     <li><Link href={'/About'}><a className={router.pathname == "/About" ? "text-orange-accent" : ""}>About</a></Link></li>
                     <li><Link href={'/How'}><a className={router.pathname == "/How" ? "text-orange-accent" : ""}>How we work</a></Link></li>
                     <li><Link href={'/Benefits'}><a className={router.pathname == "/Benefits" ? "text-orange-accent" : ""}>Benefits</a></Link></li>
-                    <li className="ml-auto"><Link href={'/Contact'}><a className={router.pathname == "/Contact" ? "text-orange-accent transition duration-300 ease-in-out rounded border-2 border-dark-header p-2 hover:border-2 hover:bg-white hover:border-gray-300" : "transition duration-300 ease-in-out rounded border-2 border-dark-header p-2 hover:border-2 hover:bg-white hover:border-gray-300"}>Contact us</a></Link></li>
+                    <li className="ml-auto"><Link href={'/Contact'}><a className={router.pathname == "/Contact" ? "text-orange-accent transition duration-300 ease-in-out rounded border-2 border-dark-header p-2 hover:border-2 hover:bg-white hover:border-gray-300" : "transition duration-300 ease-in-out rounded border-2 border-dark-header p-2 hover:border-2 hover:bg-white hover:border-gray-300 hover:text-orange-accent"}>Contact us</a></Link></li>
                 </ul>
             </nav>
         </header>

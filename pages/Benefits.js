@@ -7,7 +7,7 @@ import BenefitsContainer from '../components/BenefitsContainer'
 
 const About = () => {
     return (
-        <Format>
+        <Format title={'- Benefits'}>
             <HeaderText h2={'Benefits'} p={'Our partners come to us because they require more than just a safe pair of hands. They must understand that we are industry leaders and that they will be counseled, supported, and understood at all times.'} />
             <BenefitsContainer />
         </Format>

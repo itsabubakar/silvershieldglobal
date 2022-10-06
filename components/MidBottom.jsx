@@ -1,5 +1,5 @@
 import Image from "next/image"
-import sectionImg from '../public/images/section--one.jpg'
+import sectionImg from '../public/images/section--two.jpg'
 
 const MidBottom = () => {
     return (
@@ -11,8 +11,8 @@ const MidBottom = () => {
             </div>
 
             <div className="w-[60%] max-w-[500px]">
-                <h2 className="text-3xl mb-3">Grow your business to a global<br></br> level</h2>
-                <p className="text-lg">We help companies take their projects to the global market. We also work with other relevant institution to secure funding for your company</p>
+                <h2 className="text-3xl mb-3">Expand your business to a worldwide<br></br> scale</h2>
+                <p className="text-lg">We help enterprises in taking their projects to the worldwide market. We also partner with other appropriate institutions to get finance for your business.</p>
             </div>
 
             <div className='relative bg-silver-bg w-[20%] h-[430px]'>
@@ -21,7 +21,7 @@ const MidBottom = () => {
                 </div>
             </div>
 
-        </section>
+        </section >
     )
 }
 
