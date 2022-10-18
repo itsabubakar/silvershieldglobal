@@ -2,7 +2,7 @@ import Benefits from './_child/Benefits'
 
 const BenefitsContainer = () => {
     return (
-        <section className="m-[100px] flex flex-col items-center">
+        <section className="mx-5 my-20 md:m-[100px] flex flex-col items-center">
             <Benefits
                 h2={'We do everything'}
                 pOne={'We offer a complete, comprehensive service.'}

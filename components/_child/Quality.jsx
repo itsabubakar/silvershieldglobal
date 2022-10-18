@@ -1,6 +1,6 @@
 const Quality = () => {
     return (
-        <div className="flex mx-[100px] my-[100px] gap-x-6">
+        <div className="flex flex-wrap mx-[100px] my-[100px] gap-6">
             <div className="flex-1">
                 <h2 className="border-l-4 border-orange-accent text-2xl mb-5 pl-3">Fast</h2>
                 <p>Our experts will review your paper work in record time and quickly draft a development strategy.</p>

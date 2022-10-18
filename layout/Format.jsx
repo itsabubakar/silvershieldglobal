@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Footer from "../components/Footer"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 
 
 const Format = ({ title, children }) => {
@@ -8,12 +8,13 @@ const Format = ({ title, children }) => {
     return (
         <div>
             <Head>
-                <meta charset="UTF-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta charSet="UTF-8" />
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>{headTitle}</title>
+                <link rel="icon" href="/favicon.ico" />'
             </Head>
-            <Header />
+            <Navbar />
             <main>
                 {children}
             </main>

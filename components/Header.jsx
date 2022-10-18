@@ -1,8 +1,16 @@
 import Link from "next/link"
 import { useRouter } from 'next/router'
+import { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Header = () => {
     const router = useRouter();
+    const [nav, setNav] = useState(false);
+
+    const handleNav = () => {
+        setNav(!nav)
+    }
+
     return (
         <header className="flex mx-[100px] items-center py-5 raleway">
             <div className="text-silver-accent">

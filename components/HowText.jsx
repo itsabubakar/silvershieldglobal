@@ -1,8 +1,8 @@
 const HowText = () => {
     return (
-        <section className="p-[60px] bg-[#F2F2F2]">
-            <h2 className="text-center mb-[50px] text-3xl">How We Work</h2>
-            <div className="flex gap-x-24 justify-center mb-12">
+        <section className=" bg-[#F2F2F2] my-20">
+            <h2 className="text-center mb-[50px] text-3xl pt-20 xl:px-[60px]">How We Work</h2>
+            <div className="flex flex-wrap mx-5 xl:mx-0 gap-24 justify-center mb-12">
                 <div className="max-w-[450px]">
                     <h2 className="border-blue-accent border-l-4 pl-4 text-2xl mb-5">Consultancy</h2>
                     <p className="mb-2">We listen to your objectives to understand exactly what you and your company needs.</p>
@@ -16,7 +16,7 @@ const HowText = () => {
                     <p className="mb-3">Our experts have the expertise and experience to create specifications that make use of cutting-edge technologies. By keeping as many of the tasks in-house and using our own staff as much as possible, we are able to manage the potential difficulties of planning a large-scale project.</p>
                 </div>
             </div>
-            <div className="flex gap-x-24 justify-center">
+            <div className="flex flex-wrap mx-5 xl:mx-0 gap-24 justify-center">
                 <div className="max-w-[450px]">
                     <h2 className="border-blue-accent border-l-4 pl-4 text-2xl mb-5">Fund Source</h2>
                     <p className="mb-3">We can source the funds needed to upscaling of your company.</p>
